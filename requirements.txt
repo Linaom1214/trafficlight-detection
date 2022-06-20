@@ -1,4 +1,5 @@
 streamlit==1.8.1
 onnxruntime
 numpy
-opencv-python
+opency-python-headless
+opencv-python 
