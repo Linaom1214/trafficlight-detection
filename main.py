@@ -19,13 +19,13 @@ def get_color_map_list(num_classes):
             j += 1
             lab >>= 3
     color_map = [color_map[i:i + 3] for i in range(0, len(color_map), 3)]
-    return 
+    return color_map
 
 classes = [
-    'Traffic Light-Red Light',
-    'Traffic Light-Yellow Light',
-    'Traffic Light-Green Light',
-    'Traffic Light-Off'
+    'Red',
+    'Yellow',
+    'Green',
+    'Off'
 ]
 
 
